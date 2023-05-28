@@ -21,7 +21,7 @@ export class ColorPiker extends PureComponent {
         return (
             <div>
                 <div className={css.container}>
-                    <div className={css.elemMarginRight}>Name : {elemActiveColor.name}</div>
+                    <div className={css.elemMarginRight     }>Name : {elemActiveColor.name}</div>
                     <div>Color : {elemActiveColor.color}</div>
                 </div>
 
