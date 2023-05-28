@@ -1,16 +1,17 @@
-export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
-};
+import React, { Component } from "react";
+import data from '../database/data';
+import colors from '../database/colors';
+import { ColorPiker } from "./ColorPiker/ColorPiker";
+import { Tabs } from "./Tabs/Tabs";
+
+export class App extends Component {
+
+  render() {
+    return (
+      <div>
+        <Tabs item={data}/>
+        <ColorPiker colors={colors}/>
+      </div>  
+    )
+  }
+}

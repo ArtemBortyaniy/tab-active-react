@@ -1,0 +1,17 @@
+[
+    {   
+        "idx" : "id-1",
+        "label" : "Tab 1",
+        "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus dolores fuga totam est eligendi error optio veniam, hic officiis perferendis quidem neque dolor praesentium soluta eum delectus vitae nulla nihil."
+    },
+    {
+        "idx" : "id-2",
+        "label" : "Tab 2",
+        "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus dolores fuga totam est eligendi error optio veniam, hic officiis perferendis quidem neque dolor praesentium soluta eum delectus vitae nulla nihil."
+    },
+    {
+        "idx" : "id-3",
+        "label" : "Tab 3",
+        "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus dolores fuga totam est eligendi error optio veniam, hic officiis perferendis quidem neque dolor praesentium soluta eum delectus vitae nulla nihil."
+    }
+]
